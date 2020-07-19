@@ -1,85 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">  <!-- the language used to develop the webpage -->
-  <head>  <!-- no page content in the head sections -->
-    <title>Climate Bots|| Set Hacks 2020 </title>
-    <meta charset="utf-8">  <!-- sets character encoding -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
-
-    <style>
-
-</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Quiz App</title>
 </head>
 <body>
-    <head>
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-
-
-    <header>
-  <h1>
-    Welcome to the climate bots educational platform!   
-    </h1>
-      
-</header>
-    
-  <section class="Introduction">       
-
-
-
-<h2>
-    Want to participate in a fun trivia challenges to learn new skills and gain points!  
-    </h2>
-  <p>
-Check out the link below for more information! :) </p>   
-  </section>
-    
-    
-    <section>
-    <h3>
-    Interactive Game: 
-    </h3>
-  <p>
-Here are a few trivia games to test your knowledge on a variety of climate topics; greenhouse gases, animal habitats, etc! 
-    </p>   
-  </section>
-
-      <img width="300" height="195" class="width-100" 
-src="https://cdn.glitch.com/60b3dfe5-0b0f-4542-8e91-2784fb4ddb43%2FScreen%20Shot%202020-07-18%20at%206.19.14%20PM.png?v=1595110880477" alt="Me" />
-
-
-    
-
-
-<form>
-      <input type="button" onclick="window.location.href='https://uwaterloo.ca/future-students/programs/computer-science';" value="Trivia Game Page" />
-    </form>
-          
-    <section class="Challenge1">
-
-  
-  <h4>
-Weekly Challenge: Everyday week a new challenge will be posted on the website! Users must email us at climatebots@gmail.com and will be entered into a raffle to win a prize sponsored by climate change non-profits! 
-    </h4>
-  <p>
-    Today, everyone must send a picture of them using a reusable waterball outside! 
-  </p>   
-  </section>
-  
-  <img width="300" height="195" class="width-100" 
-src="https://cdn.glitch.com/60b3dfe5-0b0f-4542-8e91-2784fb4ddb43%2F1321_cc-vs-gw-vs-wx-768px.jpg?v=1595106715227" alt="Me" />
-
-<form>
-      <input type="button" onclick="window.location.href='https://uwaterloo.ca/future-students/programs/computer-science';" value="Contact Us Page" />
-    </form>
-          <section class="Challenge2">
-
-  
+  <div class="container">
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
+</body>
+</html>
