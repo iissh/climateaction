@@ -1,0 +1,31 @@
+body {
+  font-family: "Arial"; 
+  background-color: #90EE90;
+    margin: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-style: bold;
+  color: #000080;
+  text-align: center;
+
+}
+h1 {
+  font-family: "Arial";
+  text-align: center;
+}
+
+h2,h3,h4,h5{
+  font-size: 18px;
+  font-style: bold;
+  color: #000080;
+  text-align: center;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  text-align: center;
+}
